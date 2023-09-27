@@ -47,3 +47,8 @@ write_tsv(adelie_data, "results/1.penguin.adelie.only.txt")
 
 
 ## Verdict = USE GITHUB
+
+#Using the Branch: creating a continous lm:
+model3 <- lm(bill_length_mm ~ flipper_length_mm, data = penguin_data)
+summary(model3)
+anova(model3)
