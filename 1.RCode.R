@@ -44,3 +44,6 @@ adelie_data <- subset(penguin_data, species == "Adelie")
 
 #Save the edited dataset in results/
 write_tsv(adelie_data, "results/1.penguin.adelie.only.txt")
+
+
+## Verdict = USE GITHUB
